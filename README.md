@@ -2,6 +2,8 @@
 
 Una aplicación web moderna para explorar animes, personajes y obtener información detallada usando la API de **Jikan** (API no oficial de MyAnimeList).
 
+🔗 **[Ver Demo en Vivo en Vercel](https://vercel.com/asbeliens-projects/examen-final-anime-g1g7)**
+
 ## 🚀 Características
 
 - ✅ **Explorar Animes**: Navega por animes populares con paginación
