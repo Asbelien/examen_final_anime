@@ -1,9 +1,9 @@
 import { useEffect } from 'react';
 import AnimeCard from '../components/modules/character/AnimeCard';
-import { useCharactersStore } from '../stores/useCharactersStore';
+import { useAnimeStore } from '../stores/useCharactersStore';
 
 const AnimesPage = () => {
-  const { characters: animes, isLoading, error, fetchCharacters: fetchAnimes } = useCharactersStore();
+  const { animes, isLoading, error, fetchAnimes } = useAnimeStore();
 
   useEffect(() => {
     fetchAnimes();
@@ -69,4 +69,4 @@ const AnimesPage = () => {
   );
 };
 
-export default CharactersPage;
+export default AnimesPage;

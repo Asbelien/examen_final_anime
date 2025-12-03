@@ -1,4 +1,4 @@
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 
 const AnimeCard = ({ anime }) => {
   const image = anime.images?.jpg?.image_url;
@@ -24,7 +24,7 @@ const AnimeCard = ({ anime }) => {
             : "Sin sinopsis disponible."}
         </p>
 
-        <Link to={`/anime/${anime.mal_id}`} className="btn btn-outline-primary w-100 mt-auto">
+        <Link to={`/animes/${anime.mal_id}`} className="btn btn-outline-primary w-100 mt-auto">
           <i className="bi bi-eye me-2"></i>
           Ver detalle
         </Link>

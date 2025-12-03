@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from 'react-router';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import RootLayout from './layouts/RootLayout';
 import AnimeDetailPage from './pages/AnimeDetailPage';
 import AnimesPage from './pages/AnimesPage';
